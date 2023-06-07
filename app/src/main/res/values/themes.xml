@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Lab5_PH36944" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowAnimationStyle">@style/MyAnimation</item>
+    </style>
+
+    <style name="Theme.Lab5_PH36944" parent="Base.Theme.Lab5_PH36944" />
+    <style name="MyAnimation" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:activityOpenEnterAnimation">@anim/lab73_fade_in</item>
+        <item name="android:activityCloseEnterAnimation">@anim/lab73_fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/lab73_fade_out</item>
+        <item name="android:activityCloseExitAnimation">@anim/lab73_fade_out</item>
+    </style>
+</resources>

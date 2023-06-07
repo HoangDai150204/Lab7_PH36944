@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/addst" android:icon="@drawable/add" app:showAsAction="always"
+        android:title="Add"/>
+    <item android:id="@+id/search" android:icon="@drawable/ic_search" app:showAsAction="always"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+    <item android:id="@+id/lab61MenuLichHoc" android:title="Lịch Học"/>
+    <item android:id="@+id/lab61MenuBangDiem" android:title="Bảng Điểm"/>
+    <item android:id="@+id/lab61MenuDiemDanh" android:title="Điểm Danh"/>
+    <item android:id="@+id/lab61MenuDangXuat" android:title="Đăng Xuất"/>
+
+</menu>
